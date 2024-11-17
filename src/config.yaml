@@ -11,7 +11,7 @@ metadata:
   title:
     default: Budget Hound
     template: '%s — Budget Hound'
-  description: "The best app for personal budgeting and planning"
+  description: "Take control of your finances with our intuitive budgeting app for iOS. Track expenses, manage income, and plan your budget effortlessly. Perfect for personal finance, savings goals, and expense tracking. Start making smarter financial decisions today!"
   robots:
     index: true
     follow: true

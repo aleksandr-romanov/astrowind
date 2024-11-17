@@ -42,9 +42,9 @@ const appStoreDownloadLink = 'https://apple.co/3bcPIIS';
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Unlock boundless creativity at your fingertips: your gateway to innovative design.
+       Take control of your finances: track expenses, plan budgets, and save smarter.
       </span>
-      Download now and embark on a journey to elevate your projects like never before.
+      Download Budget Hound now and embark on a journey toward financial wellness.
     </Fragment>
 
     <div slot="actions" class="flex max-w-sm gap-4">
@@ -54,276 +54,279 @@ const appStoreDownloadLink = 'https://apple.co/3bcPIIS';
     </div>
   </Hero2>
 
-   <!-- Stats Widget ****************** -->
-
-  <Stats
-    title="Statistics of our app"
-    stats={[
-      { amount: '>100K', icon: 'tabler:download' },
-      { amount: '>25K', icon: 'tabler:users' },
-      { amount: '4.9', icon: 'tabler:user-star' },
-    ]}
-  />
-
   <!-- Features Widget *************** -->
 
   <Features
     id="features"
     tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    title="What Budget Hound Offers"
+    subtitle="An all-in-one tool for effective budgeting and expense tracking, trusted by thousands."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Easy Expense Tracking',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+          'Record transactions with ease and categorize expenses for clear insights.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Goal-Oriented Budget Planning',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+          'Set monthly budgets and track your progress to stay on course with your financial goals.',
         icon: 'tabler:components',
       },
       {
-        title: 'Best Practices',
+        title: 'Personalized Insights',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
+          'Gain insights on spending habits to make informed financial decisions.',
         icon: 'tabler:list-check',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Secure Data Protection',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+          'Your financial data is stored securely and remains private, with strict security protocols.',
         icon: 'tabler:rocket',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Expense Reports',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
+          'Generate detailed reports on your spending for a complete financial overview.',
         icon: 'tabler:arrows-right-left',
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: 'Customizable Notifications',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
+          'Receive reminders to track spending and stay updated on your budget status.',
         icon: 'tabler:bulb',
       },
     ]}
   />
 
-  <!-- Content Widget **************** -->
+  <!-- Overview **************** -->
 
   <Content
-    isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
     items={[
       {
-        title: 'Built on top of Astro 4.0',
+        title: 'Feature 1',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
       },
       {
-        title: 'Styled using Tailwind CSS',
+        title: 'Feature 2',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
       },
       {
-        title: 'Cross-browser compatibility',
+        title: 'Feature 3',
         description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
-      },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
+      }
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Colorful Image',
+      src: '~/assets/images/overview.png',
+      alt: 'Overview image',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-      Gain a competitive advantage by incorporating industry leading practices
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Overview</h3>
     </Fragment>
   </Content>
 
-  <!-- Content Widget **************** -->
-
-  <Content
-    isAfterContent
-    items={[
-      {
-        title: 'High level of customization',
-        description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
-      },
-      {
-        title: 'Multiple layout possibilities',
-        description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
-      },
-      {
-        title: 'Fully responsive design',
-        description:
-          "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
-      },
-      {
-        title: 'Integration of media',
-        description:
-          'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
-      alt: 'Blueprint Image',
-    }}
-  >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
+  <!-- Transactions **************** -->
 
   <Content
     isReversed
-    isAfterContent
     items={[
       {
-        title: 'Enhanced user engagement',
+        title: 'Feature 1',
         description:
-          'Captivate your audience with interactive elements, intuitive navigation, and visually appealing layouts, encouraging longer visits.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
       },
       {
-        title: 'Continuous improvement',
+        title: 'Feature 2',
         description:
-          'Ensure your website stays aligned with the latest trends and technologies through regular updates and enhancements.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
       },
       {
-        title: 'Time and resource efficiency',
+        title: 'Feature 3',
         description:
-          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with AstroWind.',
-      },
-      {
-        title: 'Community support',
-        description: `Join the growing AstroWind community for insights, resources, and assistance, ensuring you're never alone on your web development journey.`,
-      },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
+      }
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
+      src: '~/assets/images/transaction.png',
+      alt: 'Transaction image',
     }}
   >
-    <Fragment slot="content">Designed to foster growth and success.</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Transactions</h3>
     </Fragment>
   </Content>
 
-  <!-- Steps Widget ****************** -->
+  <!-- Analytics **************** -->
 
-  <Steps
-    title="Get your dream website up and running in no time with AstroWind."
+  <Content
     items={[
       {
-        title: 'Step 1: <span class="font-medium">Download</span>',
+        title: 'Feature 1',
         description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
-        icon: 'tabler:package',
-      },
-      {
-        title: 'Step 2: <span class="font-medium">Add content</span>',
-        description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
-        icon: 'tabler:letter-case',
-      },
-      {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
-        description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-        icon: 'tabler:paint',
-      },
-      {
-        title: 'Ready!',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
         icon: 'tabler:check',
       },
+      {
+        title: 'Feature 2',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
+      },
+      {
+        title: 'Feature 3',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
+      }
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
+      src: '~/assets/images/analytics.png',
+      alt: 'Analytics image',
     }}
-  />
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Analytics</h3>
+    </Fragment>
+  </Content>
 
-  <!-- Features2 Widget ************** -->
+  <!-- Trends **************** -->
 
-  <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
+  <Content
+    isReversed
     items={[
       {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
+        title: 'Annual Overview of Income, Expenses, and Savings',
         description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
+          'Get a clear summary of your financial performance over the past year. The dashboard displays total earnings, spending, and savings, providing a big-picture view of your money management.',
+        icon: 'tabler:check',
       },
       {
-        title: 'Features',
+        title: 'Savings indicator',
         description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
-        icon: 'flat-color-icons:approval',
+          'See exactly how much of your income you’ve saved. This key metric helps you track your financial discipline and encourages healthy saving habits by setting measurable goals.',
+        icon: 'tabler:check',
       },
       {
-        title: 'Content',
+        title: 'Category Spending Analysis',
         description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
-      },
+          'Identify trends in your spending habits with a detailed breakdown of categories where expenses have increased or decreased. This feature helps you understand where your money goes and highlights opportunities for smarter budgeting.',
+        icon: 'tabler:check',
+      }
     ]}
+    image={{
+      src: '~/assets/images/trends_1.png',
+      alt: 'Trends image',
+    }}
   >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Trends</h3>
     </Fragment>
-  </Features2>
+  </Content>
 
-  <!-- Testimonials Widget *********** -->
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'Budget Transactions Breakdown',
+        description:
+          'Visualize your spending trends over time with a clear, easy-to-read bar chart. Each bar represents a month’s transactions, helping you track changes in your expenses at a glance.',
+        icon: 'tabler:check',
+      },
+      {
+        title: 'Transaction Grouping',
+        description:
+          'Organize your spending effortlessly by grouping transactions into categories or folders. This feature provides a structured overview of where your money is going.',
+        icon: 'tabler:check',
+      },
+      {
+        title: 'Category Selection',
+        description:
+          'Easily focus on specific areas by selecting or deselecting categories. This flexibility lets you tailor your analysis and better understand your financial habits.',
+        icon: 'tabler:check',
+      }
+    ]}
+    image={{
+      src: '~/assets/images/trends_2.png',
+      alt: 'Trends image 2',
+    }}
+  >
+  </Content>
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'User-friendly interface',
+        description:
+          'An intuitive and easy-to-navigate interface that allows users to quickly browse and find the templates they need.',
+        icon: 'tabler:check',
+      },
+      {
+        title: 'Personalization options',
+        description:
+          'Include basic customization tools that let users modify text, colors, images, and other elements within the templates.',
+       icon: 'tabler:check',
+      },
+      {
+        title: 'Ready-to-use components',
+        description:
+          'Enhance your designs with ready-to-use elements like graphics, icons, and layouts, saving you time and boosting visual appeal.',
+        icon: 'tabler:check',
+      }
+    ]}
+    image={{
+      src: '~/assets/images/trends_3.png',
+      alt: 'Trends image 3',
+    }}
+  >
+  </Content>
+
+  <!-- Widgets **************** -->
+
+  <Content
+    items={[
+      {
+        title: 'Feature 1',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
+      },
+      {
+        title: 'Feature 2',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
+      },
+      {
+        title: 'Feature 3',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet sed dui non lacinia. Donec et blandit orci. Vestibulum lacinia elit eu sapien convallis, nec eleifend nisl volutpat. Pellentesque habitant.',
+        icon: 'tabler:check',
+      }
+    ]}
+    image={{
+      src: '~/assets/images/widgets.png',
+      alt: 'Widgets image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Widgets</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Testimonials *********** -->
 
   <Testimonials
     title="What our users say"
@@ -331,31 +334,19 @@ const appStoreDownloadLink = 'https://apple.co/3bcPIIS';
       {
         testimonial: `It's made exploring and downloading website templates a breeze. The interface is intuitive, and I had no trouble finding the perfect template for my project. It's an app that truly empowers users.`,
         name: 'Cary Kennedy',
-        job: 'Film director',
-        image: {
-          src: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-          alt: 'Cary Kennedy Image',
-        },
+        job: 'Film director'
       },
       {
         testimonial: `The app's seamless download process and intuitive layout have made selecting templates an enjoyable experience. Being able to preview and experiment with different designs before committing has saved me time and ensured I get the perfect look for my website.`,
         name: 'Josh Wilkinson',
-        job: 'Product Manager',
-        image: {
-          src: 'https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-          alt: 'Josh Wilkinson Image',
-        },
+        job: 'Product Manager'
       },
       {
         testimonial:
           'I was able to download and use a professional website template within minutes. The step-by-step process and user-friendly interface made it easy for me to create a website that looks as if it was designed by a pro.',
         name: 'Sidney Hansen',
-        job: 'Decorator',
-        image: {
-          src: 'https://images.unsplash.com/photo-1512361436605-a484bdb34b5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-          alt: 'Sidney Hansen Image',
-        },
-      },
+        job: 'Decorator'
+      }
     ]}
   />
 
@@ -369,8 +360,8 @@ const appStoreDownloadLink = 'https://apple.co/3bcPIIS';
 
   <CallToAction
     id="download"
-    title="Download our app now!"
-    subtitle="Access a variety of stunning templates, simplify your creative process, and elevate your online presence."
+    title="Get started with Budget Hound today!"
+    subtitle="Take control of your finances with intuitive tools designed to simplify budgeting, track expenses, and achieve your financial goals."
   >
     <div slot="actions" class="flex max-w-sm gap-4">
       <Button variant="link" href={appStoreDownloadLink}>
