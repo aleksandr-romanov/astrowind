@@ -9,7 +9,7 @@ export const footerData = {
   links: [
     {
       links: [
-        { text: 'Blog', href: '#' }
+        { text: 'Blog', href: getPermalink('/blog') }
         ]
     },
     {
