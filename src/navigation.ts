@@ -20,10 +20,11 @@ export const footerData = {
     {
       links: [
         { text: 'Terms', href: getPermalink('/terms') },
-        { text: 'Privacy Policy', href: getPermalink('/privacy')  } 
+        { text: 'Privacy Policy', href: getPermalink('/privacy') } 
       ]
     }
   ],
   secondaryLinks: [],
-  socialLinks: []
+  socialLinks: [],
+  footNote: `© 2021-2024 by Aleksandr Romanov`,
 };
