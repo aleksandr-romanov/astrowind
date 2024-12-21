@@ -19,8 +19,8 @@ export const footerData = {
     },
     {
       links: [
-        { text: 'Terms', href: getPermalink('/terms') },
-        { text: 'Privacy Policy', href: getPermalink('/privacy') } 
+        { text: 'Terms', href: getPermalink('/terms.pdf') },
+        { text: 'Privacy Policy', href: getPermalink('/privacy.pdf') } 
       ]
     }
   ],
