@@ -26,5 +26,5 @@ export const footerData = {
   ],
   secondaryLinks: [],
   socialLinks: [],
-  footNote: `© 2021-2024 by Aleksandr Romanov`,
+  footNote: `© 2021-2025 by Aleksandr Romanov`,
 };
